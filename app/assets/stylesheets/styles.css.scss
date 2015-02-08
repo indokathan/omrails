@@ -1,2 +1,22 @@
+/* possible font change */
+/*$baseFontFamily: oxygen;
+@import url(http://fonts.googleapis.com/css?family=oxygen);*/
+
+$btn-danger-bg: red;
+$navbar-default-bg: black;
+
 @import 'bootstrap';
 
+body {
+	
+	padding-top: 50px;
+
+}
+
+.footer {
+
+	margin-top: 50px;
+	a {
+		color: $gray;
+	}
+}
